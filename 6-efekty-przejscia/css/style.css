@@ -13,7 +13,7 @@ body
 #colors 
 {
     background-color: yellow;
-    transition: background-color 1s ease-in 1s;
+    transition: background-color 0,5s ease-in 0,5s;
 }
 
 #colors:hover
