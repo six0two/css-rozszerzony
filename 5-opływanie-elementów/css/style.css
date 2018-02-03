@@ -1,0 +1,20 @@
+img#doodle
+{
+    float: left;
+}
+
+img#doodle2
+{
+    float: right;
+}
+
+img#doodle
+{
+    float: none;
+}
+
+p:last-child
+{
+    background-color: gold;
+    clear: right;
+}

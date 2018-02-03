@@ -1,4 +1,37 @@
-body
+div#elementy-blokowe>#p1
 {
     background-color: red;
 }
+
+div#elementy-blokowe>#p2
+{
+    background-color: skyblue;
+}
+
+div#elementy-blokowe>#p3
+{
+    background-color: limegreen;
+}
+
+div#elementy-blokowe p
+{
+    display: inline;
+}
+
+div#elementy-inline-block > ul
+{
+    text-align: center;
+}
+
+
+div#elementy-inline-block > ul li 
+{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    margin-left: 10px;
+}
+
+
+
