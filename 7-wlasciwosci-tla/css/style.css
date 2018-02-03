@@ -1,0 +1,7 @@
+#tlo-obrazek
+{
+    background-image: url("../img/bak.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
