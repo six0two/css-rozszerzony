@@ -1,0 +1,29 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+div > p#p1::before
+{
+    content: "przed elementem ";
+    color: red;
+    
+}
+
+div p#p2::after
+{
+    content: " za elementem";
+    color: blue;
+}
+
+div p#p3::first-letter
+{
+    content: " za elementem";
+    color: darkorange;
+    font-weight: bold;
+}
+
+div p#p4::first-line
+{
+    color: cadetblue;
+}
