@@ -1,0 +1,35 @@
+a#link-1:link
+{
+    color: green;
+}
+
+a:visited
+{
+    color: black;
+    
+}
+
+a:hover
+{
+    background-color: gold;
+}
+
+div.tabela > div.klient:first-child
+{
+    background-color: red;
+}
+
+div.tabela > div.klient:last-child
+{
+    background-color: blue;
+}
+
+div.tabela :nth-child(5)
+{
+    background-color: gold;
+}
+
+div.tabela :nth-child(4n+5)
+{
+    background-color: greenyellow;
+}
